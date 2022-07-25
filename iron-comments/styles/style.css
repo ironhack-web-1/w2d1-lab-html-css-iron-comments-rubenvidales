@@ -3,9 +3,53 @@ body {
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+    background-color: rgb(25, 33,41);
 }
 
 #form-container {
     margin: auto;
+    box-sizing: border-box;
+    border: 2px solid rgb(67,163, 230);
+    border-radius: 3px;
+    width: 250px;
+    padding: 20px;
+    color: rgb(255, 255,255);
+
+}
+
+#form-container .input {
+    border: 1px solid rgb(67,163, 230);
+    border-radius: 2px;
+}
+
+#form-container .input-label {
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+#form-container .checkbox-input-label {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.05em;
+    line-height: 1em;
+}
+
+#form-container .area-input {
+    height: 160px;
+}
+
+
+#form-container .submit-input {
+	border: none;
+	font: inherit;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+
+    background-color: rgb(67,163, 230);
+    color: rgb(255, 255,255);
+    padding: 6px 4px;
+    border-radius: 11px;
+    margin-top: 4px;
 }

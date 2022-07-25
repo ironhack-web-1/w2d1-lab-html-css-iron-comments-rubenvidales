@@ -12,7 +12,15 @@
 <body>
 
     <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+        <label for="name-input" class="input-label">Name:</label>
+        <input type="text" class="input" id="name-input">
+        <label for="email-input" class="input-label">Email:</label>
+        <input type="email" class="input" id="email-input">
+        <label for="comment-input" class="input-label">Comment:</label>
+        <textarea id="comment-input" class="input area-input"></textarea>
+        <label for="checkbox-input" class="checkbox-input-label">Receive email updates?</label>
+        <input type="checkbox" name="checkbox-input" id="checkbox-input">
+        <input type="submit" value="Submit" class="submit-input">
     </form>
 
 </body>
